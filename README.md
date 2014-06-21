@@ -27,7 +27,7 @@ You can also retrive the Typefaces through `get`.
 ## Setting up:
 
 1. First put your fonts in **assets/fonts**, I use two font files called Akkurat-Bold.otf and Akkurat-Light.otf. *(I have only worked with .otf files so far)*.
-2. Create a new class that will hold the filenames for your fonts, I called my Fonts.java
+2. Create a new class that will hold the filenames for your fonts, I named mine Fonts.java
 
 		package com.example.app;
 		
@@ -68,7 +68,7 @@ Download [fontmanager.aar](https://github.com/marteinn/Android-FontManager/blob/
 After that just include it as any other dependency.
  
 	dependencies {
-		compile 'se.marteinn.utils.fonts:fontmanager:2.0-BETA@aar'
+		compile 'se.marteinn.utils.fonts:fontmanager:1.0-BETA@aar'
 	}
 
 
