@@ -1,6 +1,6 @@
 Android-FontManager
 ==============
-FontManager makes it easier to work with external fonts in Android.
+FontManager is a utility that makes it easier to work with fonts in Android.
 
 ## How it works
 
@@ -16,7 +16,7 @@ FontManager's primary feature is the @ApplyFont annotation, just specify it alon
 	    TextView label;
 	    
 
-Then just call `apply` when your components has been initialized.
+Then just call `apply` when your components has been initialized with the class containing the component.
 
 	FontsManager.getInstance().apply(this);
 	
@@ -68,7 +68,7 @@ Download [fontmanager.aar](https://github.com/marteinn/Android-FontManager/blob/
 After that just include it as any other dependency.
  
 	dependencies {
-		compile 'se.marteinn.utils.fonts:fontmanager:2.0-BETA@aar'
+		compile 'se.marteinn.utils.fonts:fontmanager:1.0-BETA@aar'
 	}
 
 
